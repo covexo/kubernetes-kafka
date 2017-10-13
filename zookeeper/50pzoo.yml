@@ -62,6 +62,7 @@ spec:
   - metadata:
       name: data
     spec:
+      storageClassName: ceph-rbd-hdd
       accessModes: [ "ReadWriteOnce" ]
       resources:
         requests:
